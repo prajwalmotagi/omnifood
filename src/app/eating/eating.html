@@ -1,0 +1,83 @@
+<section class="bg-orange-400 mb-5 rounded-xl overflow-hidden max-w-6xl mx-auto shadow-xl ">
+  <div class="grid md:grid-cols-2">
+
+    <!-- LEFT SIDE -->
+    <div class=" md:p-16 grid grid-col justify-center space-y-6 text-black">
+      
+      <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold leading-tight">
+        Get your first meal for free!
+      </h2>
+
+      <p class="text-gray-800">
+        Healthy, tasty and hassle-free meals are waiting for you. Start eating well today. 
+        You can cancel or pause anytime. And the first meal is on us!
+      </p>
+
+      <!-- FORM -->
+      <form class="grid gap-4 md:gap-6">
+
+        <!-- NAME + EMAIL -->
+        <div class="grid md:grid-cols-2 gap-4">
+
+          <div class="flex flex-col">
+            <label class="text-sm font-semibold mb-1 text-black">
+              Full Name
+            </label>
+
+            <input 
+              type="text"
+              placeholder="John Smith"
+              class="rounded-lg border border-gray-300 bg-white px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-yellow-300 focus:border-yellow-300 transition">
+          </div>
+
+          <div class="flex flex-col">
+            <label class="text-sm font-semibold mb-1 text-black">
+              Email address
+            </label>
+
+            <input 
+              type="email"
+              placeholder="me@example.com"
+              class="rounded-lg border border-gray-300 bg-white px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-yellow-300 focus:border-yellow-300 transition">
+          </div>
+
+        </div>
+
+        <!-- SELECT + BUTTON -->
+        <div class="grid md:grid-cols-2 gap-4 items-end">
+
+          <div class="flex flex-col">
+            <label class="text-sm font-semibold mb-1 text-black">
+              Where did you hear from us?
+            </label>
+
+            <select
+              class="rounded-lg border border-gray-300 font-semibold bg-white px-2 py-3 text-gray-900 focus:outline-none focus:ring-2 focus:ring-yellow-300 focus:border-yellow-300">
+              <option>Please choose one option:</option>
+              <option>Social Media</option>
+              <option>Friend / Family</option>
+              <option>Advertisement</option>
+              <option>Other</option>
+            </select>
+          </div>
+
+          <button
+            type="submit"
+            class="bg-black text-xl text-white font-bold px-6 py-3 rounded-lg hover:bg-gray-900 transition w-full">
+            Sign up now
+          </button>
+
+        </div>
+      </form>
+    </div>
+
+    <!-- RIGHT SIDE IMAGE -->
+    <div class="relative min-h-75 md:min-h-full bg-orange-400 opacity-70">
+      <img
+        src="assets/eating.jpg"
+        alt="Happy customer eating"
+        class="absolute inset-0 w-full h-full object-cover">
+    </div>
+
+  </div>
+</section>

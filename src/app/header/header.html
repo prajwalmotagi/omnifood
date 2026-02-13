@@ -1,0 +1,46 @@
+<header class="fixed top-0 left-0 w-full z-50 bg-[#fdf2e9] font-poppins">
+  <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+
+    <!-- Logo -->
+    <div class="h-5">
+  <img src="assets/omnifood-logo.png" alt="Omnifood Logo" class="h-full" />
+</div>
+
+
+
+    <!-- Desktop Menu -->
+    <nav class="hidden md:flex space-x-14 items-center">
+      <a href="#how-it-works" class="font-bold text-gray-700 hover:text-orange-500 transition">
+        How it works
+      </a>
+      <a href="#meals" class="font-bold text-gray-700 hover:text-orange-500 transition">
+        Meals
+      </a>
+      <a href="#testimonials" class="font-bold text-gray-700 hover:text-orange-500 transition">
+        Testimonials
+      </a>
+      <a href="#pricing" class="font-bold text-gray-700 hover:text-orange-500 transition">
+        Pricing
+      </a>
+      <a href="#cta" class="font-bold bg-orange-500 text-white px-5 py-2 rounded-lg hover:bg-orange-600 transition">
+        Try for free
+      </a>
+    </nav>
+
+    <!-- Mobile Menu Button -->
+    <button class="md:hidden text-gray-700 focus:outline-none" (click)="isOpen = !isOpen">
+      ☰
+    </button>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div *ngIf="isOpen" class="md:hidden pb-6 space-y-4 px-6">
+    <a href="#how-it-works" class="block font-bold text-gray-700 hover:text-orange-500">How it works</a>
+    <a href="#meals" class="block font-bold text-gray-700 hover:text-orange-500">Meals</a>
+    <a href="#testimonials" class="block font-bold text-gray-700 hover:text-orange-500">Testimonials</a>
+    <a href="#pricing" class="block font-bold text-gray-700 hover:text-orange-500">Pricing</a>
+    <a href="#cta" class="block font-bold bg-orange-500 text-white px-4 py-2 rounded-lg text-center hover:bg-orange-600">
+      Try for free
+    </a>
+  </div>
+</header>

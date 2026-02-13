@@ -1,0 +1,40 @@
+{
+  "workbench.colorCustomizations": {
+    
+    /* Main UI */
+    "editor.background": "#1e1e1e",
+    "editor.foreground": "#f8f8f2",
+
+    /* Activity Bar (left icons) */
+    "activityBar.background": "#53e38c",
+    "activityBar.foreground": "#ffffff",
+    "activityBarBadge.background": "#559afa",
+    "activityBarBadge.foreground": "#ffffff",
+
+    /* Sidebar */
+    "sideBar.background": "#252526",
+    "sideBar.foreground": "#f3d4a7",
+
+    /* Title Bar */
+    "titleBar.activeBackground": "#837bec",
+    "titleBar.activeForeground": "#ffffff",
+
+    /* Status Bar */
+    "statusBar.background": "#ff6a00",
+    "statusBar.foreground": "#ffffff",
+
+    /* Tabs */
+    "tab.activeBackground": "#2d2d2d",
+    "tab.activeForeground": "#25e1db",
+    "tab.inactiveForeground": "#bbbbbb",
+
+    /* Buttons */
+    "button.background": "#6e879e",
+    "button.hoverBackground": "#ffa733",
+    "button.foreground": "#ffffff",
+
+    /* Selection */
+    "list.activeSelectionBackground": "#ff8c0033",
+    "list.hoverBackground": "#ff8c001a"
+  }
+}
